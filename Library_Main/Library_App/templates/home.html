@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+ {% extends "index.html" %}
+ {% load static %}
+
+ {% block main_content %}
+
+ <main role="main">
+    <div class="jumbotron">
+        <div class="container">
+            <img src="{% static '/big_logo.png' %}" class="rounded float-start" alt="Lib" height="200" style="margin-right:20px ;">
+            <h1 class="display-4"> Hello Readers, Welcome to City Library !</h1>
+            <p>
+                City Library is your gateway to a world of knowledge, imagination, and community. Located in the heart of downtown, our library offers an extensive collection of books, e-books, audiobooks, magazines, and multimedia resources. Whether you're a student, a professional, a parent, or a lifelong learner, City Library has something for everyone.
+                
+            </p>
+            <p>
+                <a role="button" class="btn btn-primary  btn-lg " href="#"  >Browse our Collection 👉</a>
+            </p>
+           
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="row">
+          <div class="col">
+            <h2>
+                Why reading is important?
+            </h2>
+            <p>Reading is important because it broadens knowledge, improves vocabulary and language skills, and enhances critical thinking. It stimulates mental processes, reduces stress, and fosters empathy by exposing readers to diverse perspectives and experiences. Reading also contributes to personal growth, creativity, and lifelong learning, making it a fundamental skill for success in both personal and professional life.</p>
+          </div>
+          <div class="col">
+            <h2>🗝️ Benefits</h2>
+            <ul>
+                <li>Fosters Creativity: Inspires imagination and innovative thinking.</li>
+                <li>Supports Lifelong Learning: Encourages continuous education and self-improvement.</li>
+                <li>Boosts Critical Thinking: Develops analytical and problem-solving skills.</li>
+                <li>Promotes Empathy: Exposes readers to diverse perspectives and experiences.</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Thought of the day 🍁</h2>
+            <p>धीरे-धीरे रे मना, धीरे सब कुछ होय।
+                <br>
+                माली सींचे सौ घड़ा, ऋतु आये फल होय।।
+                <br>
+                <hr>
+                Like a gardener patiently waits for fruits to grow,
+                Readers too must cultivate patience in what they sow.
+                With each page turned and each word understood,
+                Knowledge and wisdom blossom in due time, for the good.</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </main>
+      <footer class="container">
+        <p>©️ City Library 2024</p>
+      </footer>
+
+   
+ {% endblock %}

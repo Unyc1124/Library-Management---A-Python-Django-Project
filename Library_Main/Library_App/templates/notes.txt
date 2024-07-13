@@ -1,0 +1,8 @@
+1.Model :
+Data Model (models.py) definition to store the records in a database.
+
+2. View :
+Programming logic to handle requests, get data from model and render HTML template (views.py).
+
+3.Template : 
+UI design in HTML files (readers_tab.html)
